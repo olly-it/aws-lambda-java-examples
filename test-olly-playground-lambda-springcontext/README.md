@@ -1,7 +1,7 @@
 # simple lambda function (with spring-boot)
 
 # build
-mvn package
+mvn package -DskipTests
 
 # lambda - handler
 lambda handler on aws web console has to be configured as:
@@ -10,3 +10,6 @@ lambda handler on aws web console has to be configured as:
 
 # test
 tests can be done by passing directly the json inside aws-console -> lambda -> tests
+
+
+tests can be done also with junit
