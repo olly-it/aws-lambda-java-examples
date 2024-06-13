@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	
-	<groupId>com.enginius.lambda</groupId>
+	<groupId>it.olly.lambda</groupId>
 	<artifactId>test-olly-playground-lambda-springfunction</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>test-olly-playground-lambda-springfunction</name>

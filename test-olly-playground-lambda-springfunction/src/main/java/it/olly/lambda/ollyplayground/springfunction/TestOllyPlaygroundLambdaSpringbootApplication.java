@@ -1,4 +1,4 @@
-package com.enginius.lambda.ollyplayground.springfunction;
+package it.olly.lambda.ollyplayground.springfunction;
 
 import java.util.function.Function;
 

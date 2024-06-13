@@ -3,13 +3,13 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.enginius.lambda</groupId>
+	<groupId>it.olly</groupId>
 	<artifactId>test-olly-playground-lambda</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>test-olly-playground-lambda</name>
 	<description>java Demo project on aws lambda</description>
 	<properties>
-    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
@@ -31,6 +31,14 @@
 			<version>1.5.1</version>
 		</dependency>
 		<!-- /aws lambda -->
+
+		<!-- aws simple systems management (parameter store) -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-ssm</artifactId>
+			<version>1.12.740</version>
+		</dependency>
+		<!-- /aws simple systems management (parameter store) -->
 
 	</dependencies>
 

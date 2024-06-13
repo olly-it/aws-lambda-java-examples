@@ -1,4 +1,4 @@
-package com.enginius.lambda.ollyplayground.http.awshandler;
+package it.olly.lambda.ollyplayground.http.awshandler;
 
 import com.amazonaws.serverless.exceptions.ContainerInitializationException;
 import com.amazonaws.serverless.proxy.model.AwsProxyResponse;
@@ -6,7 +6,8 @@ import com.amazonaws.serverless.proxy.model.HttpApiV2ProxyRequest;
 import com.amazonaws.serverless.proxy.spring.SpringBootLambdaContainerHandler;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-import com.enginius.lambda.ollyplayground.http.TestOllyPlaygroundLambdaHttpApplication;
+
+import it.olly.lambda.ollyplayground.http.TestOllyPlaygroundLambdaHttpApplication;
 
 public class LambdaHandler implements RequestHandler<HttpApiV2ProxyRequest, AwsProxyResponse> {
     private static SpringBootLambdaContainerHandler<HttpApiV2ProxyRequest, AwsProxyResponse> handler;

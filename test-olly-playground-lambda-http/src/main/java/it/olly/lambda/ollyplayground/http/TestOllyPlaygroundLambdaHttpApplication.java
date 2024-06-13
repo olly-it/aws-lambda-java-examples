@@ -1,4 +1,4 @@
-package com.enginius.lambda.ollyplayground.http;
+package it.olly.lambda.ollyplayground.http;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
