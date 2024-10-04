@@ -17,7 +17,11 @@ public class TestHandler implements RequestHandler<HttpApiV2ProxyRequest, AwsPro
     public AwsProxyResponse handleRequest(HttpApiV2ProxyRequest input, Context context) {
         System.out.println("--> BODY: " + input.getBody());
         System.out.println("--> QS: " + input.getQueryStringParameters());
+        System.out.println("--> PATH: " + input.getRawPath());
         System.out.println("--> HEADERS: " + input.getHeaders());
+        System.out.println("--> REQUESTCONTEXT.HTTP.METHOD: " + input.getRequestContext()
+                .getHttp()
+                .getMethod());
 
         AwsProxyResponse output = new AwsProxyResponse(200);
         output.setBody("ciao " + ZonedDateTime.now());
