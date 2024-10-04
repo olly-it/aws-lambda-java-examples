@@ -6,7 +6,7 @@ mvn package
 
 # lambda - handler
 lambda handler on aws web console has to be configured as:
-``com.enginius.lambda.ollyplayground.TestHandler::handleRequest``
+``it.olly.lambda.ollyplayground.TestHandler::handleRequest``
 
 # test
 tests can be done by passing directly the json inside aws-console -> lambda -> tests

@@ -8,7 +8,9 @@ mvn package
 
 # lambda - handler
 lambda handler on aws web console has to be configured as:
-``com.enginius.lambda.ollyplayground.http.awshandler.LambdaHandler::handleRequest``
+``it.olly.lambda.ollyplayground.http.awshandler.LambdaHandler::handleRequest``
+
+NOTE: [function] URL must be enabled on lambda
 
 # test
 tests can be done by calling via HTTP the <function URL>/your-defined-path-inside-controllers
